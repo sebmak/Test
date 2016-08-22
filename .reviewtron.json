@@ -1,0 +1,19 @@
+{
+  "approve_by_comment": true,
+  "reset_on_push": true,
+  "approve_pattern": "^(approved|\\+1|ok|yes|Looks\\sGood|:shipit:|:thumbsup:|:\\+1:)(\\s|\\!|\\.|$)+",
+  "author_approval": false,
+  "groups": [
+    {
+      "name": "developers",
+      "required": 2,
+      "members": [
+        "sebmak
+      ]
+    },
+    {
+      "name": "qa",
+      "required": 2
+    }
+  ]
+}
