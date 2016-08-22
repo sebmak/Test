@@ -1,0 +1,3 @@
+approvals = 1
+patterm = "(?i)^(approved|\\+1|ok|yes|Looks\\sGood|:\\+1:)(\\s|\\!|\\.|$)+"
+self_approval_off = false
